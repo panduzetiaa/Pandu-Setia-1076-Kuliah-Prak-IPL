@@ -11,39 +11,39 @@ interface DoorInterface {
 class Motorcycle implements VehicleInterface {
     @Override
     public void drive() {
-        // kode untuk mengendarai motor
+        // Implementasi metode drive untuk Motorcycle
     }
 
     @Override
     public void stop() {
-        // kode untuk menghentikan motor
+        // Implementasi metode stop untuk Motorcycle
     }
 
     @Override
     public void refuel() {
-        // kode untuk mengisi bahan bakar motor
+        // Implementasi metode refuel untuk Motorcycle
     }
-    // Tidak perlu implementasi openDoors() karena tidak diperlukan
 }
 
 class Car implements VehicleInterface, DoorInterface {
+
     @Override
     public void drive() {
-        // kode untuk mengendarai mobil
+        // Implementasi metode drive untuk Car
     }
 
     @Override
     public void stop() {
-        // kode untuk menghentikan mobil
+        // Implementasi metode stop untuk Car
     }
 
     @Override
     public void refuel() {
-        // kode untuk mengisi bahan bakar mobil
+        // Implementasi metode refuel untuk Car
     }
 
     @Override
     public void openDoors() {
-        // kode untuk membuka pintu mobil
+        // Implementasi metode openDoors untuk Car
     }
 }

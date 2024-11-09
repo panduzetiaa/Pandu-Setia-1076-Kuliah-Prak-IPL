@@ -1,29 +1,31 @@
-// Abstraksi untuk mesin
 interface EngineInterface {
     void start();
 }
 
-// Implementasi mesin bensin
 class PetrolEngine implements EngineInterface {
     @Override
     public void start() {
-        System.out.println("Petrol engine started");
+        System.out.println("Petrol engine starting...");
     }
 }
 
-// Implementasi mesin diesel
 class DieselEngine implements EngineInterface {
     @Override
     public void start() {
-        System.out.println("Diesel engine started");
+        System.out.println("Diesel engine starting...");
     }
 }
 
-// Kelas Car bergantung pada EngineInterface, bukan pada implementasi spesifik
+class HybridEngine implements EngineInterface {
+    @Override
+    public void start() {
+        System.out.println("Hybrid engine starting...");
+    }
+}
+
 class Car {
     private EngineInterface engine;
 
-    // Car menerima engine melalui constructor (dependency injection)
     public Car(EngineInterface engine) {
         this.engine = engine;
     }
@@ -33,15 +35,15 @@ class Car {
     }
 }
 
-// Penggunaan
-public class Main {
+class Main {
     public static void main(String[] args) {
-        EngineInterface petrolEngine = new PetrolEngine();
-        Car petrolCar = new Car(petrolEngine);
-        petrolCar.start();
+        Car fuelCar = new Car(new PetrolEngine());
+        Car dieselCar = new Car(new DieselEngine());
+        Car hybridCar = new Car(new HybridEngine());
 
-        EngineInterface dieselEngine = new dieselEngine();
-        Car dieselCar = new Car(dieselEngine);
+        // Menghidupkan setiap mobil
+        fuelCar.start();
         dieselCar.start();
+        hybridCar.start();
     }
 }
