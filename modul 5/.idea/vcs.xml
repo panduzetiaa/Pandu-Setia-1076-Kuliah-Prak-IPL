@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Naming" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/clean code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/single catch" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tugas 4" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tugas defensive" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/tugas formatting" vcs="Git" />
+  </component>
+</project>
