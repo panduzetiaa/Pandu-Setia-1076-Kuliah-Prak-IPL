@@ -2,7 +2,6 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/modul 5/Assertion" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/modul 5/Naming" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/modul 5/clean code" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/modul 5/single catch" vcs="Git" />
