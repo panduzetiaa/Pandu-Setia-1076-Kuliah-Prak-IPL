@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/modul3/IDP/IDP.iml" filepath="$PROJECT_DIR$/modul3/IDP/IDP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modul3/ISP/ISP.iml" filepath="$PROJECT_DIR$/modul3/ISP/ISP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modul 5/Naming/Naming.iml" filepath="$PROJECT_DIR$/modul 5/Naming/Naming.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modul 4/Tugas 1/Tugas 1.iml" filepath="$PROJECT_DIR$/modul 4/Tugas 1/Tugas 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modul 5/clean code/clean code.iml" filepath="$PROJECT_DIR$/modul 5/clean code/clean code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/clone.iml" filepath="$PROJECT_DIR$/.idea/clone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modul 4/design pattern dan Object composing/design pattern dan Object composing.iml" filepath="$PROJECT_DIR$/modul 4/design pattern dan Object composing/design pattern dan Object composing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modul2/modul2.iml" filepath="$PROJECT_DIR$/modul2/modul2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modul2/ocp/ocp.iml" filepath="$PROJECT_DIR$/modul2/ocp/ocp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modul 5/single catch/single catch.iml" filepath="$PROJECT_DIR$/modul 5/single catch/single catch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modul 5/tugas 4/tugas 4.iml" filepath="$PROJECT_DIR$/modul 5/tugas 4/tugas 4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modul 5/tugas defensive/tugas defensive.iml" filepath="$PROJECT_DIR$/modul 5/tugas defensive/tugas defensive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modul 5/tugas formatting/tugas formatting.iml" filepath="$PROJECT_DIR$/modul 5/tugas formatting/tugas formatting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modul2/untitled/untitled.iml" filepath="$PROJECT_DIR$/modul2/untitled/untitled.iml" />
+    </modules>
+  </component>
+</project>
