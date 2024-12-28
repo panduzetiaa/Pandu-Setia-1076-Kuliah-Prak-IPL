@@ -2,6 +2,7 @@ public class Polygon extends Shape {
     private int numberOfSides;
     private Point[] points;
 
+
     public Polygon(int numberOfSides, Point[] points) {
         this.numberOfSides = numberOfSides;
         this.points = points;
