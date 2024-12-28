@@ -10,5 +10,4 @@ public class Assignment {
         public void setMark(int m){
             mark=m;
         }
-    }
 }
