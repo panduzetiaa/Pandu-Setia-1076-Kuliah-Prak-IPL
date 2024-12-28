@@ -1,11 +1,19 @@
 public class Student {
     private String name;
-    Student(){
-        public String getName() {
-            return name;
-        }
-        public void setName(String n) {
-            name=n;
-        }
+
+    // Konstruktor tanpa parameter
+    public Student() {
+        // Biasanya, konstruktor digunakan untuk inisialisasi,
+        // tetapi dalam contoh ini tidak ada inisialisasi.
+    }
+
+    // Metode untuk mendapatkan nama
+    public String getName() {
+        return name;
+    }
+
+    // Metode untuk mengatur nama
+    public void setName(String n) {
+        name = n;
     }
 }
