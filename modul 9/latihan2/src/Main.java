@@ -4,14 +4,10 @@ public class Main {
         int income = 50000;
         boolean authorized = true;
 
-        if (score > 700)
-            accept();
-        else if ((income >= 40000) && (income <= 100000) && authorized && (score > 500))
-            accept();
-        else if (income > 100000)
-            accept();
-        else
+        if ((score <= 700) && ((income < 40000) || (income > 100000) || !authorized || (score <= 500)) && (income <= 100000))
             reject();
+        else
+            accept();
     }
 
     public static void accept() {
